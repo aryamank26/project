@@ -1,0 +1,126 @@
+  * { margin= 0px ;
+    box-sizing : border-box ;
+    padding : 0px ;
+  }
+  .centercalcy {
+    height : 100vh ;
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+   }
+  body {
+   background-size : 100% 100% ;
+  }
+
+  form {
+   width : 400px ;
+   height : 620px ;
+   box-shadow : 0 0 10px 1px grey ;
+  } 
+  
+  #app_name {
+   width : inherit ;
+   font-size : 0.8rem ;
+   background-color : #303030 ;
+   color : white ;
+   border : none ;
+   font-family : "Open Sans" , sans-serif ;
+   padding : 2px 0 2px 10px  ;
+   outline : none ;
+   
+ 
+  }
+  #display_answer {
+    width : inherit ;
+    height : 100px ;
+    background-color : #303030 ;
+    color : white ;
+    font-size : 2rem ;
+    text-align : right ;
+    outline : none ;
+    border : none ;
+  }
+  .layer1 {
+   width : inherit ;
+   display : flex ;
+   justify-content : center ;
+   height : 90px ;
+  
+  }
+  .layer2 {
+   width : inherit ;
+   display : flex ;
+   justify-content : center ;
+   height : 40px ;
+  
+  }
+  .layer3 {
+    width : inherit ;
+    display : flex ;
+    justify-content : centre ;
+    height : 50px ;
+
+   }
+   
+   .disclamer {
+    width : inherit ;
+    display : flex ;
+    justify-content : centre ;
+    height : 20px ;
+   }
+  
+   .credits {
+      color : #fff ;
+      background-color : #000 ;
+      font-size : 10px ;
+   } 
+
+  .parenthesis {
+    background-color : #012b74 ;
+    color : #fff ;
+   }
+  
+  
+  .boolean {
+    background-color : #012b74 ;
+    color : #fff ;
+   }
+  
+    .parenthesis:hover {
+    background-color : #01b9f5 ;
+    color : #fff ;
+   }
+
+     .boolean:hover {
+    background-color : #01b9f5 ;
+    color : #fff ;
+   }
+  input { 
+   flex : 1 ;
+   color : white ;
+   outline : none ;
+   border : 0.05px solid #504f4f ;
+   font-size : 1.4rem ; 
+  }
+  .main_num {
+   background-color : #101011 ; 
+  }
+  .operator {
+   background-color : #303030 ;
+  }
+  #clear_button {
+   font-size : 1rem ;
+  }
+  .equal {
+   background-color : #ffbf00 ;
+  }
+  .main_num:hover { 
+   background-color : #888 ;
+  }
+  .operator:hover {
+   background-color : black ;
+  }
+  .equal:hover {
+   background-color : #fc6600 ; 
+  } 
+ 

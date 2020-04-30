@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="project.css">
+  <title>Calculator</title>
+ </head>
+ <body>
+  <div class="centercalcy">
+   <form name ="calcy">
+    <input type="text" name="" value="Calculator" id="app_name" disabled>
+
+    <input type="text" name="answers" id="display_answer" disabled >
+
+    <div class="layer2">
+     <input type="button" name="" class="operator" value="AC"  id="clear_button" onclick="calcy.answers.value = '' "> 
+     <input type="button" name="" value="=" class="equal" onclick="calcy.answers.value = eval (calcy.answers.value) " >
+    </div>
+    <div class="layer3">
+     <input type="button" name="" class="parenthesis" value="("  id="left_bracket" onclick="calcy.answers.value += '(' "> 
+     <input type="button" name="" value=")" class="parenthesis" id="right_bracket" onclick="calcy.answers.value += ')' " >
+     <input type="button" name="" class="parenthesis" value="["  id="left_square" onclick="calcy.answers.value += ']' "> 
+     <input type="button" name="" value="]" class="parenthesis" id="right_square" onclick="calcy.answers.value += '[' " >
+     <input type="button" name="" class="parenthesis" value="{"  id="left_curly" onclick="calcy.answers.value += '{' "> 
+     <input type="button" name="" value="}" class="parenthesis" id="right_curly" onclick="calcy.answers.value += '}' " >
+     <input type="button" name="" class="boolean" value="<"  id="lessThan" onclick="calcy.answers.value += '<' "> 
+     <input type="button" name="" value=">" class="boolean" id="greaterThan" onclick="calcy.answers.value += '>' " >
+    </div>
+    <div class="layer3">
+     <input type="button" name="" class="boolean" value="!=" id="notEqualTo" onclick="calcy.answers.value += '!=' ">
+     <input type="button" name="" class="boolean" value="==" id="EqualTo" onclick="calcy.answers.value += '==' ">
+     <input type="button" name="" class="boolean" value="&&" id="and" onclick="calcy.answers.value += '&&' ">
+     <input type="button" name="" class="boolean" value=">=" id="greaterThanEqualTo" onclick="calcy.answers.value += '>=' ">
+     <input type="button" name="" class="boolean" value="<=" id="lessThanEqualTo" onclick="calcy.answers.value += '<=' ">
+     <input type="button" name="" class="boolean" value="||" id="or" onclick="calcy.answers.value += '||' ">
+    </div>
+    
+    <div class="layer1">
+     <input type="button" name="" class="main_num" value="7" onclick="calcy.answers.value += '7' "> <!-- 7 here is a string -->
+     <input type="button" name="" class="main_num" value="8" onclick="calcy.answers.value += '8' ">
+     <input type="button" name="" class="main_num" value="9" onclick="calcy.answers.value += '9' ">
+     <input type="button" name="" class="operator" value="*" onclick="calcy.answers.value += '*' ">
+    </div>
+    <div class="layer1">
+     <input type="button" name="" class="main_num" value="4" onclick="calcy.answers.value += '4' "> <!-- 7 here is a string -->
+     <input type="button" name="" class="main_num" value="5" onclick="calcy.answers.value += '5' ">
+     <input type="button" name="" class="main_num" value="6" onclick="calcy.answers.value += '6' ">
+     <input type="button" name="" class="operator" value="-" onclick="calcy.answers.value += '-' ">
+    </div>
+    <div class="layer1">
+     <input type="button" name="" class="main_num" value="1" onclick="calcy.answers.value += '1' "> <!-- 7 here is a string -->
+     <input type="button" name="" class="main_num" value="2" onclick="calcy.answers.value += '2' ">
+     <input type="button" name="" class="main_num" value="3" onclick="calcy.answers.value += '3' ">
+     <input type="button" name="" class="operator" value="+" onclick="calcy.answers.value += '+' ">
+    </div>
+    <div class="layer1">
+     <input type="button" name="" class="operator" value="." onclick="calcy.answers.value += '.' "> <!-- 7 here is a string -->
+     <input type="button" name="" class="main_num" value="0" onclick="calcy.answers.value += '0' ">
+     <input type="button" name="" class="operator" value="%" onclick="calcy.answers.value += '%' ">
+     <input type="button" name="" class="operator" value="/" onclick="calcy.answers.value += '/' ">
+    </div>
+    <div class="disclamer">
+     <input type="button" disabled class="credits" value="Made by Aryaman Kumar    *All Rights Reserved">
+    </div>
+
+
+    
+
+
+   </form>
+  </div>
+
+ </body>
+</html>
